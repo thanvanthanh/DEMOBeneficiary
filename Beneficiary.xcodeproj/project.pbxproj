@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5D5F6F264A730B002DA60D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5F6E264A730B002DA60D /* AppDelegate.swift */; };
+		4B5D5F78264A730D002DA60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D5F77264A730D002DA60D /* Assets.xcassets */; };
+		4B5D5F7B264A730D002DA60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D5F79264A730D002DA60D /* LaunchScreen.storyboard */; };
+		4B5D5F95264A7479002DA60D /* BeneficiaryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5F8F264A7479002DA60D /* BeneficiaryWorker.swift */; };
+		4B5D5F96264A7479002DA60D /* BeneficiaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5F90264A7479002DA60D /* BeneficiaryRouter.swift */; };
+		4B5D5F97264A7479002DA60D /* BeneficiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5F91264A7479002DA60D /* BeneficiaryViewController.swift */; };
+		4B5D5F98264A7479002DA60D /* BeneficiaryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5F92264A7479002DA60D /* BeneficiaryInteractor.swift */; };
+		4B5D5F99264A7479002DA60D /* BeneficiaryConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5F93264A7479002DA60D /* BeneficiaryConfigurator.swift */; };
+		4B5D5F9A264A7479002DA60D /* BeneficiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D5F94264A7479002DA60D /* BeneficiaryViewController.xib */; };
+		4B5D5FA1264A862F002DA60D /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D5FA0264A862F002DA60D /* Image.xcassets */; };
+		4B5D5FC5264B61D0002DA60D /* BeneficiaryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5FC4264B61D0002DA60D /* BeneficiaryEntity.swift */; };
+		4B5D5FCA264B6360002DA60D /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5FC8264B6360002DA60D /* ListTableViewCell.swift */; };
+		4B5D5FCB264B6360002DA60D /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D5FC9264B6360002DA60D /* ListTableViewCell.xib */; };
+		4B5D5FD7264BC433002DA60D /* BeneHeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D5FD6264BC433002DA60D /* BeneHeaderSectionView.swift */; };
+		4B5D5FD9264BC443002DA60D /* BeneHeaderSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D5FD8264BC443002DA60D /* BeneHeaderSectionView.xib */; };
+		4B76C614265279F500DE1DA4 /* BeneDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C60E265279F500DE1DA4 /* BeneDetailWorker.swift */; };
+		4B76C615265279F500DE1DA4 /* BeneDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C60F265279F500DE1DA4 /* BeneDetailRouter.swift */; };
+		4B76C616265279F500DE1DA4 /* BeneDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C610265279F500DE1DA4 /* BeneDetailViewController.swift */; };
+		4B76C617265279F500DE1DA4 /* BeneDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C611265279F500DE1DA4 /* BeneDetailInteractor.swift */; };
+		4B76C618265279F500DE1DA4 /* BeneDetailConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C612265279F500DE1DA4 /* BeneDetailConfigurator.swift */; };
+		4B76C619265279F500DE1DA4 /* BeneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B76C613265279F500DE1DA4 /* BeneDetailViewController.xib */; };
+		4B76C6212653CD7000DE1DA4 /* AddNewBeneWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C61B2653CD7000DE1DA4 /* AddNewBeneWorker.swift */; };
+		4B76C6222653CD7000DE1DA4 /* AddNewBeneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C61C2653CD7000DE1DA4 /* AddNewBeneRouter.swift */; };
+		4B76C6232653CD7000DE1DA4 /* AddNewBeneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C61D2653CD7000DE1DA4 /* AddNewBeneViewController.swift */; };
+		4B76C6242653CD7000DE1DA4 /* AddNewBeneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C61E2653CD7000DE1DA4 /* AddNewBeneInteractor.swift */; };
+		4B76C6252653CD7000DE1DA4 /* AddNewBeneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76C61F2653CD7000DE1DA4 /* AddNewBeneConfigurator.swift */; };
+		4B76C6262653CD7000DE1DA4 /* AddNewBeneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B76C6202653CD7000DE1DA4 /* AddNewBeneViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B5D5F6B264A730B002DA60D /* Beneficiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beneficiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5D5F6E264A730B002DA60D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B5D5F77264A730D002DA60D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5D5F7A264A730D002DA60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B5D5F7C264A730D002DA60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5D5F8F264A7479002DA60D /* BeneficiaryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryWorker.swift; sourceTree = "<group>"; };
+		4B5D5F90264A7479002DA60D /* BeneficiaryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryRouter.swift; sourceTree = "<group>"; };
+		4B5D5F91264A7479002DA60D /* BeneficiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryViewController.swift; sourceTree = "<group>"; };
+		4B5D5F92264A7479002DA60D /* BeneficiaryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryInteractor.swift; sourceTree = "<group>"; };
+		4B5D5F93264A7479002DA60D /* BeneficiaryConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryConfigurator.swift; sourceTree = "<group>"; };
+		4B5D5F94264A7479002DA60D /* BeneficiaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeneficiaryViewController.xib; sourceTree = "<group>"; };
+		4B5D5FA0264A862F002DA60D /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		4B5D5FC4264B61D0002DA60D /* BeneficiaryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryEntity.swift; sourceTree = "<group>"; };
+		4B5D5FC8264B6360002DA60D /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		4B5D5FC9264B6360002DA60D /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		4B5D5FD6264BC433002DA60D /* BeneHeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneHeaderSectionView.swift; sourceTree = "<group>"; };
+		4B5D5FD8264BC443002DA60D /* BeneHeaderSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeneHeaderSectionView.xib; sourceTree = "<group>"; };
+		4B76C60E265279F500DE1DA4 /* BeneDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneDetailWorker.swift; sourceTree = "<group>"; };
+		4B76C60F265279F500DE1DA4 /* BeneDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneDetailRouter.swift; sourceTree = "<group>"; };
+		4B76C610265279F500DE1DA4 /* BeneDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneDetailViewController.swift; sourceTree = "<group>"; };
+		4B76C611265279F500DE1DA4 /* BeneDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneDetailInteractor.swift; sourceTree = "<group>"; };
+		4B76C612265279F500DE1DA4 /* BeneDetailConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneDetailConfigurator.swift; sourceTree = "<group>"; };
+		4B76C613265279F500DE1DA4 /* BeneDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeneDetailViewController.xib; sourceTree = "<group>"; };
+		4B76C61B2653CD7000DE1DA4 /* AddNewBeneWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBeneWorker.swift; sourceTree = "<group>"; };
+		4B76C61C2653CD7000DE1DA4 /* AddNewBeneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBeneRouter.swift; sourceTree = "<group>"; };
+		4B76C61D2653CD7000DE1DA4 /* AddNewBeneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBeneViewController.swift; sourceTree = "<group>"; };
+		4B76C61E2653CD7000DE1DA4 /* AddNewBeneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBeneInteractor.swift; sourceTree = "<group>"; };
+		4B76C61F2653CD7000DE1DA4 /* AddNewBeneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBeneConfigurator.swift; sourceTree = "<group>"; };
+		4B76C6202653CD7000DE1DA4 /* AddNewBeneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewBeneViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5D5F68264A730B002DA60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5D5F62264A730B002DA60D = {
+			isa = PBXGroup;
+			children = (
+				4B5D5F6D264A730B002DA60D /* Beneficiary */,
+				4B5D5F6C264A730B002DA60D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5D5F6C264A730B002DA60D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5F6B264A730B002DA60D /* Beneficiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B5D5F6D264A730B002DA60D /* Beneficiary */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5F6E264A730B002DA60D /* AppDelegate.swift */,
+				4B76C600265223B100DE1DA4 /* Scene */,
+				4B5D5FA2264A8EF2002DA60D /* Image */,
+				4B5D5F77264A730D002DA60D /* Assets.xcassets */,
+				4B5D5F79264A730D002DA60D /* LaunchScreen.storyboard */,
+				4B5D5F7C264A730D002DA60D /* Info.plist */,
+			);
+			path = Beneficiary;
+			sourceTree = "<group>";
+		};
+		4B5D5F82264A732A002DA60D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5FD5264BC3E7002DA60D /* HeaderSection */,
+				4B5D5FC3264B616B002DA60D /* Model */,
+				4B5D5F9B264A7D5A002DA60D /* Cell */,
+				4B5D5F8F264A7479002DA60D /* BeneficiaryWorker.swift */,
+				4B5D5F90264A7479002DA60D /* BeneficiaryRouter.swift */,
+				4B5D5F91264A7479002DA60D /* BeneficiaryViewController.swift */,
+				4B5D5F92264A7479002DA60D /* BeneficiaryInteractor.swift */,
+				4B5D5F93264A7479002DA60D /* BeneficiaryConfigurator.swift */,
+				4B5D5F94264A7479002DA60D /* BeneficiaryViewController.xib */,
+				4B76C60D265279A400DE1DA4 /* BeneDetail */,
+				4B76C61A2653CD4A00DE1DA4 /* AddNewBene */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4B5D5F9B264A7D5A002DA60D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5FC8264B6360002DA60D /* ListTableViewCell.swift */,
+				4B5D5FC9264B6360002DA60D /* ListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4B5D5FA2264A8EF2002DA60D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5FA0264A862F002DA60D /* Image.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4B5D5FC3264B616B002DA60D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5FC4264B61D0002DA60D /* BeneficiaryEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B5D5FD5264BC3E7002DA60D /* HeaderSection */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5FD6264BC433002DA60D /* BeneHeaderSectionView.swift */,
+				4B5D5FD8264BC443002DA60D /* BeneHeaderSectionView.xib */,
+			);
+			path = HeaderSection;
+			sourceTree = "<group>";
+		};
+		4B76C600265223B100DE1DA4 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D5F82264A732A002DA60D /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4B76C60D265279A400DE1DA4 /* BeneDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4B76C60E265279F500DE1DA4 /* BeneDetailWorker.swift */,
+				4B76C60F265279F500DE1DA4 /* BeneDetailRouter.swift */,
+				4B76C610265279F500DE1DA4 /* BeneDetailViewController.swift */,
+				4B76C611265279F500DE1DA4 /* BeneDetailInteractor.swift */,
+				4B76C612265279F500DE1DA4 /* BeneDetailConfigurator.swift */,
+				4B76C613265279F500DE1DA4 /* BeneDetailViewController.xib */,
+			);
+			path = BeneDetail;
+			sourceTree = "<group>";
+		};
+		4B76C61A2653CD4A00DE1DA4 /* AddNewBene */ = {
+			isa = PBXGroup;
+			children = (
+				4B76C61B2653CD7000DE1DA4 /* AddNewBeneWorker.swift */,
+				4B76C61C2653CD7000DE1DA4 /* AddNewBeneRouter.swift */,
+				4B76C61D2653CD7000DE1DA4 /* AddNewBeneViewController.swift */,
+				4B76C61E2653CD7000DE1DA4 /* AddNewBeneInteractor.swift */,
+				4B76C61F2653CD7000DE1DA4 /* AddNewBeneConfigurator.swift */,
+				4B76C6202653CD7000DE1DA4 /* AddNewBeneViewController.xib */,
+			);
+			path = AddNewBene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B5D5F6A264A730B002DA60D /* Beneficiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5D5F7F264A730D002DA60D /* Build configuration list for PBXNativeTarget "Beneficiary" */;
+			buildPhases = (
+				4B5D5F67264A730B002DA60D /* Sources */,
+				4B5D5F68264A730B002DA60D /* Frameworks */,
+				4B5D5F69264A730B002DA60D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beneficiary;
+			productName = Beneficiary;
+			productReference = 4B5D5F6B264A730B002DA60D /* Beneficiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B5D5F63264A730B002DA60D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "iOS Team";
+				TargetAttributes = {
+					4B5D5F6A264A730B002DA60D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B5D5F66264A730B002DA60D /* Build configuration list for PBXProject "Beneficiary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B5D5F62264A730B002DA60D;
+			productRefGroup = 4B5D5F6C264A730B002DA60D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5D5F6A264A730B002DA60D /* Beneficiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5D5F69264A730B002DA60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5D5F7B264A730D002DA60D /* LaunchScreen.storyboard in Resources */,
+				4B76C6262653CD7000DE1DA4 /* AddNewBeneViewController.xib in Resources */,
+				4B5D5FCB264B6360002DA60D /* ListTableViewCell.xib in Resources */,
+				4B5D5FA1264A862F002DA60D /* Image.xcassets in Resources */,
+				4B76C619265279F500DE1DA4 /* BeneDetailViewController.xib in Resources */,
+				4B5D5F78264A730D002DA60D /* Assets.xcassets in Resources */,
+				4B5D5FD9264BC443002DA60D /* BeneHeaderSectionView.xib in Resources */,
+				4B5D5F9A264A7479002DA60D /* BeneficiaryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B5D5F67264A730B002DA60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B76C6232653CD7000DE1DA4 /* AddNewBeneViewController.swift in Sources */,
+				4B76C6242653CD7000DE1DA4 /* AddNewBeneInteractor.swift in Sources */,
+				4B5D5FC5264B61D0002DA60D /* BeneficiaryEntity.swift in Sources */,
+				4B76C618265279F500DE1DA4 /* BeneDetailConfigurator.swift in Sources */,
+				4B5D5F97264A7479002DA60D /* BeneficiaryViewController.swift in Sources */,
+				4B5D5F96264A7479002DA60D /* BeneficiaryRouter.swift in Sources */,
+				4B76C615265279F500DE1DA4 /* BeneDetailRouter.swift in Sources */,
+				4B5D5F95264A7479002DA60D /* BeneficiaryWorker.swift in Sources */,
+				4B76C616265279F500DE1DA4 /* BeneDetailViewController.swift in Sources */,
+				4B76C614265279F500DE1DA4 /* BeneDetailWorker.swift in Sources */,
+				4B76C6212653CD7000DE1DA4 /* AddNewBeneWorker.swift in Sources */,
+				4B5D5F99264A7479002DA60D /* BeneficiaryConfigurator.swift in Sources */,
+				4B76C617265279F500DE1DA4 /* BeneDetailInteractor.swift in Sources */,
+				4B5D5FD7264BC433002DA60D /* BeneHeaderSectionView.swift in Sources */,
+				4B5D5FCA264B6360002DA60D /* ListTableViewCell.swift in Sources */,
+				4B5D5F6F264A730B002DA60D /* AppDelegate.swift in Sources */,
+				4B76C6252653CD7000DE1DA4 /* AddNewBeneConfigurator.swift in Sources */,
+				4B5D5F98264A7479002DA60D /* BeneficiaryInteractor.swift in Sources */,
+				4B76C6222653CD7000DE1DA4 /* AddNewBeneRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B5D5F79264A730D002DA60D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5D5F7A264A730D002DA60D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B5D5F7D264A730D002DA60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B5D5F7E264A730D002DA60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B5D5F80264A730D002DA60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Beneficiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpay.vipsontx.Beneficiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B5D5F81264A730D002DA60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Beneficiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnpay.vipsontx.Beneficiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B5D5F66264A730B002DA60D /* Build configuration list for PBXProject "Beneficiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5D5F7D264A730D002DA60D /* Debug */,
+				4B5D5F7E264A730D002DA60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5D5F7F264A730D002DA60D /* Build configuration list for PBXNativeTarget "Beneficiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5D5F80264A730D002DA60D /* Debug */,
+				4B5D5F81264A730D002DA60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B5D5F63264A730B002DA60D /* Project object */;
+}

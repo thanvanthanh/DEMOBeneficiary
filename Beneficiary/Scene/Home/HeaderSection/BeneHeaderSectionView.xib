@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BeneHeaderSectionView" customModule="Beneficiary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="118"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aR3-8T-pws" customClass="ContentView">
+                    <rect key="frame" x="0.0" y="12" width="400" height="106"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chuyển tiền nội bộ" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9V-bQ-doi">
+                            <rect key="frame" x="16" y="44.5" width="334" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.1647058824" blue="0.41176470590000003" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVn-jD-u9b">
+                            <rect key="frame" x="0.0" y="0.0" width="400" height="106"/>
+                            <connections>
+                                <action selector="didTapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="F2J-DM-q8Z"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron" translatesAutoresizingMaskIntoConstraints="NO" id="Gbk-if-slC">
+                            <rect key="frame" x="360" y="41" width="24" height="24"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="t6k-MB-9dA"/>
+                                <constraint firstAttribute="height" constant="24" id="tbH-oc-Qxa"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fVn-jD-u9b" firstAttribute="leading" secondItem="aR3-8T-pws" secondAttribute="leading" id="AMi-tm-ylh"/>
+                        <constraint firstAttribute="trailing" secondItem="Gbk-if-slC" secondAttribute="trailing" constant="16" id="IVL-F5-kHg"/>
+                        <constraint firstItem="fVn-jD-u9b" firstAttribute="top" secondItem="aR3-8T-pws" secondAttribute="top" id="OnM-31-BrN"/>
+                        <constraint firstItem="Gbk-if-slC" firstAttribute="centerY" secondItem="aR3-8T-pws" secondAttribute="centerY" id="Qn0-kk-87U"/>
+                        <constraint firstItem="k9V-bQ-doi" firstAttribute="centerY" secondItem="aR3-8T-pws" secondAttribute="centerY" id="XpD-Ii-3JR"/>
+                        <constraint firstAttribute="bottom" secondItem="fVn-jD-u9b" secondAttribute="bottom" id="dNw-qe-eou"/>
+                        <constraint firstAttribute="trailing" secondItem="fVn-jD-u9b" secondAttribute="trailing" id="lZY-bQ-lLr"/>
+                        <constraint firstItem="k9V-bQ-doi" firstAttribute="leading" secondItem="aR3-8T-pws" secondAttribute="leading" constant="16" id="map-yX-tW9"/>
+                        <constraint firstItem="Gbk-if-slC" firstAttribute="leading" secondItem="k9V-bQ-doi" secondAttribute="trailing" constant="10" id="nrK-O0-fZk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aR3-8T-pws" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Jp2-Cy-ZCj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aR3-8T-pws" secondAttribute="trailing" id="NPO-5Z-jfg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="aR3-8T-pws" secondAttribute="bottom" id="Xpm-aU-qKl"/>
+                <constraint firstItem="aR3-8T-pws" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="sXh-5P-dgW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageHeader" destination="Gbk-if-slC" id="dwY-Xl-2SX"/>
+                <outlet property="titleLabel" destination="k9V-bQ-doi" id="5Oe-Bv-Jma"/>
+            </connections>
+            <point key="canvasLocation" x="182.60869565217394" y="2.0089285714285712"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron" width="58" height="38"/>
+    </resources>
+</document>
